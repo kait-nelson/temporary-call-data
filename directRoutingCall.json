@@ -1,4 +1,6 @@
-// Data from /communications/callRecords/getDirectRoutingCalls(fromDateTime=2024-01-08T23:58Z,toDateTime=2024-01-08T23:59Z)
+// https://learn.microsoft.com/en-us/graph/api/callrecords-callrecord-getdirectroutingcalls?view=graph-rest-1.0&tabs=http
+
+// this data from: /communications/callRecords/getDirectRoutingCalls(fromDateTime=2024-01-08T23:58Z,toDateTime=2024-01-08T23:59Z)
 
 {
     "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#Collection(microsoft.graph.callRecords.directRoutingLogRow)",
