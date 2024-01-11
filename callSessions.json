@@ -1,0 +1,570 @@
+// https://learn.microsoft.com/en-us/graph/api/callrecords-callrecord-list-sessions?view=graph-rest-1.0&tabs=http
+
+// this data from /communications/callRecords/9a8967b3-0692-469e-8d5f-9c4efef5f58c/sessions
+
+{
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#communications/callRecords('9a8967b3-0692-469e-8d5f-9c4efef5f58c')/sessions",
+    "value": [
+        {
+            "id": "0d4d964d-8c84-4ee6-be91-5b8b8af79c33",
+            "modalities": [
+                "audio"
+            ],
+            "startDateTime": "2024-01-08T23:59:34.4989689Z",
+            "endDateTime": "2024-01-09T00:01:22.9359671Z",
+            "isTest": false,
+            "failureInfo": null,
+            "caller": {
+                "@odata.type": "#microsoft.graph.callRecords.participantEndpoint",
+                "name": "RD501AC585333F",
+                "cpuName": "Intel(R) Xeon(R) CPU E5-2673 v4 @ 2.30GHz",
+                "cpuCoresCount": 4,
+                "cpuProcessorSpeedInMhz": 2295,
+                "feedback": null,
+                "userAgent": {
+                    "@odata.type": "#microsoft.graph.callRecords.serviceUserAgent",
+                    "headerValue": "GraphCommunicationsClient-ConferenceVirtualAssistantBot-1.0.0.0/1.2.0.7347",
+                    "applicationVersion": null,
+                    "role": "customBot"
+                },
+                "identity": {
+                    "acsUser": null,
+                    "spoolUser": null,
+                    "phone": null,
+                    "guest": null,
+                    "encrypted": null,
+                    "onPremises": null,
+                    "acsApplicationInstance": null,
+                    "spoolApplicationInstance": null,
+                    "applicationInstance": null,
+                    "application": null,
+                    "device": null,
+                    "user": {
+                        "id": "9e133cac-5238-4d1e-aaa0-d8ff4ca23f4e",
+                        "displayName": null,
+                        "tenantId": "1190ebe4-badb-4ec5-af7e-39b962e2baba"
+                    }
+                }
+            },
+            "callee": {
+                "@odata.type": "#microsoft.graph.callRecords.serviceEndpoint",
+                "userAgent": {
+                    "@odata.type": "#microsoft.graph.callRecords.clientUserAgent",
+                    "headerValue": null,
+                    "applicationVersion": null,
+                    "platform": "unknown",
+                    "productFamily": "unknown",
+                    "communicationServiceId": null,
+                    "azureADAppId": null
+                }
+            }
+        },
+        {
+            "id": "2bb39a15-a455-4896-a57d-1c7b86e28f0d",
+            "modalities": [
+                "audio"
+            ],
+            "startDateTime": "2024-01-08T23:59:33.6990974Z",
+            "endDateTime": "2024-01-09T00:01:22.9295562Z",
+            "isTest": false,
+            "failureInfo": null,
+            "caller": {
+                "@odata.type": "#microsoft.graph.callRecords.participantEndpoint",
+                "name": "localhost",
+                "cpuName": null,
+                "cpuCoresCount": 6,
+                "cpuProcessorSpeedInMhz": 3100,
+                "feedback": null,
+                "userAgent": {
+                    "@odata.type": "#microsoft.graph.callRecords.clientUserAgent",
+                    "headerValue": "CallSignalingAgent (1417/5.22.77.2023225401;release_wangchao/r44androidbgstride.2023.44.01.7;releases/CL2023.R44)",
+                    "applicationVersion": null,
+                    "platform": "iOS",
+                    "productFamily": "teams",
+                    "communicationServiceId": null,
+                    "azureADAppId": null
+                },
+                "identity": {
+                    "acsUser": null,
+                    "spoolUser": null,
+                    "phone": null,
+                    "guest": null,
+                    "encrypted": null,
+                    "onPremises": null,
+                    "acsApplicationInstance": null,
+                    "spoolApplicationInstance": null,
+                    "applicationInstance": null,
+                    "application": null,
+                    "device": null,
+                    "user": {
+                        "id": "d0b9e579-17e2-4f55-9ebd-de7b9746a241",
+                        "displayName": "Andrew Falloon",
+                        "tenantId": "1190ebe4-badb-4ec5-af7e-39b962e2baba"
+                    }
+                }
+            },
+            "callee": {
+                "@odata.type": "#microsoft.graph.callRecords.serviceEndpoint",
+                "userAgent": {
+                    "@odata.type": "#microsoft.graph.callRecords.clientUserAgent",
+                    "headerValue": null,
+                    "applicationVersion": null,
+                    "platform": "unknown",
+                    "productFamily": "unknown",
+                    "communicationServiceId": null,
+                    "azureADAppId": null
+                }
+            }
+        },
+        {
+            "id": "34c107c5-b3d5-44a1-9766-d847b3940642",
+            "modalities": [
+                "audio"
+            ],
+            "startDateTime": "2024-01-08T23:58:34.7083002Z",
+            "endDateTime": "2024-01-08T23:59:34.2837967Z",
+            "isTest": false,
+            "failureInfo": null,
+            "caller": {
+                "@odata.type": "#microsoft.graph.callRecords.participantEndpoint",
+                "name": "RD0003FF49F355",
+                "cpuName": "Intel(R) Xeon(R) Platinum 8272CL CPU @ 2.60GHz",
+                "cpuCoresCount": 2,
+                "cpuProcessorSpeedInMhz": 2594,
+                "feedback": null,
+                "userAgent": {
+                    "@odata.type": "#microsoft.graph.callRecords.serviceUserAgent",
+                    "headerValue": "MicrosoftTeamsAutoAttendantService (2023.12.01.1)",
+                    "applicationVersion": null,
+                    "role": "skypeForBusinessAutoAttendant"
+                },
+                "identity": {
+                    "acsUser": null,
+                    "spoolUser": null,
+                    "phone": null,
+                    "guest": null,
+                    "encrypted": null,
+                    "onPremises": null,
+                    "acsApplicationInstance": null,
+                    "spoolApplicationInstance": null,
+                    "applicationInstance": null,
+                    "application": null,
+                    "device": null,
+                    "user": {
+                        "id": "ca69ff3e-cb93-47db-9896-1c18e05f1fb7",
+                        "displayName": null,
+                        "tenantId": "1190ebe4-badb-4ec5-af7e-39b962e2baba"
+                    }
+                }
+            },
+            "callee": {
+                "@odata.type": "#microsoft.graph.callRecords.serviceEndpoint",
+                "userAgent": {
+                    "@odata.type": "#microsoft.graph.callRecords.clientUserAgent",
+                    "headerValue": null,
+                    "applicationVersion": null,
+                    "platform": "unknown",
+                    "productFamily": "unknown",
+                    "communicationServiceId": null,
+                    "azureADAppId": null
+                }
+            }
+        },
+        {
+            "id": "6cd324cb-414e-40d2-bb69-765f9978b6f1",
+            "modalities": [
+                "audio"
+            ],
+            "startDateTime": "2024-01-08T23:59:05.9167192Z",
+            "endDateTime": "2024-01-09T00:01:22.9258391Z",
+            "isTest": false,
+            "failureInfo": null,
+            "caller": {
+                "@odata.type": "#microsoft.graph.callRecords.participantEndpoint",
+                "name": "RD501AC5852D9E",
+                "cpuName": "Intel(R) Xeon(R) CPU E5-2673 v4 @ 2.30GHz",
+                "cpuCoresCount": 4,
+                "cpuProcessorSpeedInMhz": 2295,
+                "feedback": null,
+                "userAgent": {
+                    "@odata.type": "#microsoft.graph.callRecords.serviceUserAgent",
+                    "headerValue": "GraphCommunicationsClient-ConferenceVirtualAssistantBot-1.0.0.0/1.2.0.7347",
+                    "applicationVersion": null,
+                    "role": "customBot"
+                },
+                "identity": {
+                    "acsUser": null,
+                    "spoolUser": null,
+                    "phone": null,
+                    "guest": null,
+                    "encrypted": null,
+                    "onPremises": null,
+                    "acsApplicationInstance": null,
+                    "spoolApplicationInstance": null,
+                    "applicationInstance": null,
+                    "application": null,
+                    "device": null,
+                    "user": {
+                        "id": "9e133cac-5238-4d1e-aaa0-d8ff4ca23f4e",
+                        "displayName": null,
+                        "tenantId": "1190ebe4-badb-4ec5-af7e-39b962e2baba"
+                    }
+                }
+            },
+            "callee": {
+                "@odata.type": "#microsoft.graph.callRecords.serviceEndpoint",
+                "userAgent": {
+                    "@odata.type": "#microsoft.graph.callRecords.clientUserAgent",
+                    "headerValue": null,
+                    "applicationVersion": null,
+                    "platform": "unknown",
+                    "productFamily": "unknown",
+                    "communicationServiceId": null,
+                    "azureADAppId": null
+                }
+            }
+        },
+        {
+            "id": "9a8967b3-0692-469e-8d5f-9c4efef5f58c",
+            "modalities": [
+                "audio"
+            ],
+            "startDateTime": "2024-01-08T23:58:34.7108526Z",
+            "endDateTime": "2024-01-08T23:58:50.0078526Z",
+            "isTest": false,
+            "failureInfo": null,
+            "caller": {
+                "@odata.type": "#microsoft.graph.callRecords.participantEndpoint",
+                "name": null,
+                "cpuName": null,
+                "cpuCoresCount": null,
+                "cpuProcessorSpeedInMhz": null,
+                "feedback": null,
+                "userAgent": {
+                    "@odata.type": "#microsoft.graph.callRecords.clientUserAgent",
+                    "headerValue": "pstn (Teams/)",
+                    "applicationVersion": null,
+                    "platform": "unknown",
+                    "productFamily": "unknown",
+                    "communicationServiceId": null,
+                    "azureADAppId": null
+                },
+                "identity": {
+                    "user": null,
+                    "acsUser": null,
+                    "spoolUser": null,
+                    "phone": {
+                        "id": "+64220693951",
+                        "displayName": null,
+                        "tenantId": null
+                    },
+                    "guest": null,
+                    "encrypted": null,
+                    "onPremises": null,
+                    "acsApplicationInstance": null,
+                    "spoolApplicationInstance": null,
+                    "applicationInstance": null,
+                    "application": null,
+                    "device": null
+                }
+            },
+            "callee": {
+                "@odata.type": "#microsoft.graph.callRecords.participantEndpoint",
+                "name": "RD0003FF49F355",
+                "cpuName": "Intel(R) Xeon(R) Platinum 8272CL CPU @ 2.60GHz",
+                "cpuCoresCount": 2,
+                "cpuProcessorSpeedInMhz": 2594,
+                "feedback": null,
+                "userAgent": {
+                    "@odata.type": "#microsoft.graph.callRecords.serviceUserAgent",
+                    "headerValue": "MicrosoftTeamsAutoAttendantService (2023.12.01.1)",
+                    "applicationVersion": null,
+                    "role": "skypeForBusinessAutoAttendant"
+                },
+                "identity": {
+                    "acsUser": null,
+                    "spoolUser": null,
+                    "phone": null,
+                    "guest": null,
+                    "encrypted": null,
+                    "onPremises": null,
+                    "acsApplicationInstance": null,
+                    "spoolApplicationInstance": null,
+                    "applicationInstance": null,
+                    "application": null,
+                    "device": null,
+                    "user": {
+                        "id": "ca69ff3e-cb93-47db-9896-1c18e05f1fb7",
+                        "displayName": "TD_INVE_Main_AA",
+                        "tenantId": "1190ebe4-badb-4ec5-af7e-39b962e2baba"
+                    }
+                }
+            }
+        },
+        {
+            "id": "9a8967b3-0692-469e-8d5f-9c4efef5f58c",
+            "modalities": [
+                "audio"
+            ],
+            "startDateTime": "2024-01-08T23:58:50.0078526Z",
+            "endDateTime": "2024-01-08T23:59:04.8798526Z",
+            "isTest": false,
+            "failureInfo": null,
+            "caller": {
+                "@odata.type": "#microsoft.graph.callRecords.participantEndpoint",
+                "name": null,
+                "cpuName": null,
+                "cpuCoresCount": null,
+                "cpuProcessorSpeedInMhz": null,
+                "feedback": null,
+                "userAgent": {
+                    "@odata.type": "#microsoft.graph.callRecords.clientUserAgent",
+                    "headerValue": "pstn (Teams/)",
+                    "applicationVersion": null,
+                    "platform": "unknown",
+                    "productFamily": "unknown",
+                    "communicationServiceId": null,
+                    "azureADAppId": null
+                },
+                "identity": {
+                    "user": null,
+                    "acsUser": null,
+                    "spoolUser": null,
+                    "phone": {
+                        "id": "+64220693951",
+                        "displayName": null,
+                        "tenantId": null
+                    },
+                    "guest": null,
+                    "encrypted": null,
+                    "onPremises": null,
+                    "acsApplicationInstance": null,
+                    "spoolApplicationInstance": null,
+                    "applicationInstance": null,
+                    "application": null,
+                    "device": null
+                }
+            },
+            "callee": {
+                "@odata.type": "#microsoft.graph.callRecords.participantEndpoint",
+                "name": "RD0003FF49F355",
+                "cpuName": "Intel(R) Xeon(R) Platinum 8272CL CPU @ 2.60GHz",
+                "cpuCoresCount": 2,
+                "cpuProcessorSpeedInMhz": 2594,
+                "feedback": null,
+                "userAgent": {
+                    "@odata.type": "#microsoft.graph.callRecords.serviceUserAgent",
+                    "headerValue": "MicrosoftTeamsAutoAttendantService (2023.12.01.1)",
+                    "applicationVersion": null,
+                    "role": "skypeForBusinessAutoAttendant"
+                },
+                "identity": {
+                    "acsUser": null,
+                    "spoolUser": null,
+                    "phone": null,
+                    "guest": null,
+                    "encrypted": null,
+                    "onPremises": null,
+                    "acsApplicationInstance": null,
+                    "spoolApplicationInstance": null,
+                    "applicationInstance": null,
+                    "application": null,
+                    "device": null,
+                    "user": {
+                        "id": "ca69ff3e-cb93-47db-9896-1c18e05f1fb7",
+                        "displayName": "TD_INVE_Main_AA",
+                        "tenantId": "1190ebe4-badb-4ec5-af7e-39b962e2baba"
+                    }
+                }
+            }
+        },
+        {
+            "id": "9a8967b3-0692-469e-8d5f-9c4efef5f58c",
+            "modalities": [
+                "audio"
+            ],
+            "startDateTime": "2024-01-08T23:59:04.8798526Z",
+            "endDateTime": "2024-01-08T23:59:35.2298526Z",
+            "isTest": false,
+            "failureInfo": null,
+            "caller": {
+                "@odata.type": "#microsoft.graph.callRecords.participantEndpoint",
+                "name": null,
+                "cpuName": null,
+                "cpuCoresCount": null,
+                "cpuProcessorSpeedInMhz": null,
+                "feedback": null,
+                "userAgent": {
+                    "@odata.type": "#microsoft.graph.callRecords.clientUserAgent",
+                    "headerValue": "pstn (Teams/)",
+                    "applicationVersion": null,
+                    "platform": "unknown",
+                    "productFamily": "unknown",
+                    "communicationServiceId": null,
+                    "azureADAppId": null
+                },
+                "identity": {
+                    "user": null,
+                    "acsUser": null,
+                    "spoolUser": null,
+                    "phone": {
+                        "id": "+64220693951",
+                        "displayName": null,
+                        "tenantId": null
+                    },
+                    "guest": null,
+                    "encrypted": null,
+                    "onPremises": null,
+                    "acsApplicationInstance": null,
+                    "spoolApplicationInstance": null,
+                    "applicationInstance": null,
+                    "application": null,
+                    "device": null
+                }
+            },
+            "callee": {
+                "@odata.type": "#microsoft.graph.callRecords.participantEndpoint",
+                "name": "RD0003FF49F355",
+                "cpuName": "Intel(R) Xeon(R) Platinum 8272CL CPU @ 2.60GHz",
+                "cpuCoresCount": 2,
+                "cpuProcessorSpeedInMhz": 2594,
+                "feedback": null,
+                "userAgent": {
+                    "@odata.type": "#microsoft.graph.callRecords.serviceUserAgent",
+                    "headerValue": "MicrosoftTeamsCallQueueService (2023.12.01.1)",
+                    "applicationVersion": null,
+                    "role": "skypeForBusinessCallQueues"
+                },
+                "identity": {
+                    "acsUser": null,
+                    "spoolUser": null,
+                    "phone": null,
+                    "guest": null,
+                    "encrypted": null,
+                    "onPremises": null,
+                    "acsApplicationInstance": null,
+                    "spoolApplicationInstance": null,
+                    "applicationInstance": null,
+                    "application": null,
+                    "device": null,
+                    "user": {
+                        "id": "8a8b782a-e957-40e8-9cba-6e9efe2b65fb",
+                        "displayName": "TD_INVE_EQD_Q",
+                        "tenantId": "1190ebe4-badb-4ec5-af7e-39b962e2baba"
+                    }
+                }
+            }
+        },
+        {
+            "id": "a1fdb24b-4ed5-4283-b7f8-b0613811d506",
+            "modalities": [
+                "audio"
+            ],
+            "startDateTime": "2024-01-08T23:58:34.7108526Z",
+            "endDateTime": "2024-01-09T00:01:22.9008099Z",
+            "isTest": false,
+            "failureInfo": null,
+            "caller": {
+                "@odata.type": "#microsoft.graph.callRecords.participantEndpoint",
+                "name": "MP00001C",
+                "cpuName": "Intel(R) Xeon(R) Platinum 8171M CPU @ 2.60GHz",
+                "cpuCoresCount": 8,
+                "cpuProcessorSpeedInMhz": 2095,
+                "feedback": null,
+                "userAgent": {
+                    "@odata.type": "#microsoft.graph.callRecords.clientUserAgent",
+                    "headerValue": "pstn (Teams/)",
+                    "applicationVersion": null,
+                    "platform": "unknown",
+                    "productFamily": "unknown",
+                    "communicationServiceId": null,
+                    "azureADAppId": null
+                },
+                "identity": {
+                    "user": null,
+                    "acsUser": null,
+                    "spoolUser": null,
+                    "phone": {
+                        "id": "+64220693951",
+                        "displayName": null,
+                        "tenantId": null
+                    },
+                    "guest": null,
+                    "encrypted": null,
+                    "onPremises": null,
+                    "acsApplicationInstance": null,
+                    "spoolApplicationInstance": null,
+                    "applicationInstance": null,
+                    "application": null,
+                    "device": null
+                }
+            },
+            "callee": {
+                "@odata.type": "#microsoft.graph.callRecords.serviceEndpoint",
+                "userAgent": {
+                    "@odata.type": "#microsoft.graph.callRecords.clientUserAgent",
+                    "headerValue": null,
+                    "applicationVersion": null,
+                    "platform": "unknown",
+                    "productFamily": "unknown",
+                    "communicationServiceId": null,
+                    "azureADAppId": null
+                }
+            }
+        },
+        {
+            "id": "ccc5eeb2-b85a-4a41-9e5e-e9df08027ecb",
+            "modalities": [
+                "audio"
+            ],
+            "startDateTime": "2024-01-08T23:59:10.1148222Z",
+            "endDateTime": "2024-01-09T00:01:22.927606Z",
+            "isTest": false,
+            "failureInfo": null,
+            "caller": {
+                "@odata.type": "#microsoft.graph.callRecords.participantEndpoint",
+                "name": "RD501AC5851760",
+                "cpuName": "Intel(R) Xeon(R) CPU E5-2673 v4 @ 2.30GHz",
+                "cpuCoresCount": 4,
+                "cpuProcessorSpeedInMhz": 2295,
+                "feedback": null,
+                "userAgent": {
+                    "@odata.type": "#microsoft.graph.callRecords.serviceUserAgent",
+                    "headerValue": "GraphCommunicationsClient-ConferenceVirtualAssistantBot-1.0.0.0/1.2.0.7347",
+                    "applicationVersion": null,
+                    "role": "customBot"
+                },
+                "identity": {
+                    "acsUser": null,
+                    "spoolUser": null,
+                    "phone": null,
+                    "guest": null,
+                    "encrypted": null,
+                    "onPremises": null,
+                    "acsApplicationInstance": null,
+                    "spoolApplicationInstance": null,
+                    "applicationInstance": null,
+                    "application": null,
+                    "device": null,
+                    "user": {
+                        "id": "9e133cac-5238-4d1e-aaa0-d8ff4ca23f4e",
+                        "displayName": null,
+                        "tenantId": "1190ebe4-badb-4ec5-af7e-39b962e2baba"
+                    }
+                }
+            },
+            "callee": {
+                "@odata.type": "#microsoft.graph.callRecords.serviceEndpoint",
+                "userAgent": {
+                    "@odata.type": "#microsoft.graph.callRecords.clientUserAgent",
+                    "headerValue": null,
+                    "applicationVersion": null,
+                    "platform": "unknown",
+                    "productFamily": "unknown",
+                    "communicationServiceId": null,
+                    "azureADAppId": null
+                }
+            }
+        }
+    ]
+}
