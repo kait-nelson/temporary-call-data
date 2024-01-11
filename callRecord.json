@@ -1,0 +1,127 @@
+// https://learn.microsoft.com/en-us/graph/api/callrecords-callrecord-get?view=graph-rest-1.0&tabs=http
+
+// this data from: /communications/callRecords/9a8967b3-0692-469e-8d5f-9c4efef5f58c
+
+{
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#communications/callRecords/$entity",
+    "id": "9a8967b3-0692-469e-8d5f-9c4efef5f58c",
+    "version": 5,
+    "type": "groupCall",
+    "modalities": [
+        "audio"
+    ],
+    "lastModifiedDateTime": "2024-01-09T02:07:24.9666588Z",
+    "startDateTime": "2024-01-08T23:58:34.7083002Z",
+    "endDateTime": "2024-01-09T00:01:22.9359671Z",
+    "joinWebUrl": null,
+    "organizer": {
+        "user": null,
+        "acsUser": null,
+        "spoolUser": null,
+        "phone": {
+            "id": "+64220693951",
+            "displayName": null,
+            "tenantId": null
+        },
+        "guest": null,
+        "encrypted": null,
+        "onPremises": null,
+        "acsApplicationInstance": null,
+        "spoolApplicationInstance": null,
+        "applicationInstance": null,
+        "application": null,
+        "device": null
+    },
+    "participants": [
+        {
+            "acsUser": null,
+            "spoolUser": null,
+            "phone": null,
+            "guest": null,
+            "encrypted": null,
+            "onPremises": null,
+            "acsApplicationInstance": null,
+            "spoolApplicationInstance": null,
+            "applicationInstance": null,
+            "application": null,
+            "device": null,
+            "user": {
+                "id": "9e133cac-5238-4d1e-aaa0-d8ff4ca23f4e",
+                "displayName": null,
+                "tenantId": "1190ebe4-badb-4ec5-af7e-39b962e2baba"
+            }
+        },
+        {
+            "user": null,
+            "acsUser": null,
+            "spoolUser": null,
+            "phone": {
+                "id": "+64220693951",
+                "displayName": null,
+                "tenantId": null
+            },
+            "guest": null,
+            "encrypted": null,
+            "onPremises": null,
+            "acsApplicationInstance": null,
+            "spoolApplicationInstance": null,
+            "applicationInstance": null,
+            "application": null,
+            "device": null
+        },
+        {
+            "acsUser": null,
+            "spoolUser": null,
+            "phone": null,
+            "guest": null,
+            "encrypted": null,
+            "onPremises": null,
+            "acsApplicationInstance": null,
+            "spoolApplicationInstance": null,
+            "applicationInstance": null,
+            "application": null,
+            "device": null,
+            "user": {
+                "id": "ca69ff3e-cb93-47db-9896-1c18e05f1fb7",
+                "displayName": "TD_INVE_Main_AA",
+                "tenantId": "1190ebe4-badb-4ec5-af7e-39b962e2baba"
+            }
+        },
+        {
+            "acsUser": null,
+            "spoolUser": null,
+            "phone": null,
+            "guest": null,
+            "encrypted": null,
+            "onPremises": null,
+            "acsApplicationInstance": null,
+            "spoolApplicationInstance": null,
+            "applicationInstance": null,
+            "application": null,
+            "device": null,
+            "user": {
+                "id": "8a8b782a-e957-40e8-9cba-6e9efe2b65fb",
+                "displayName": "TD_INVE_EQD_Q",
+                "tenantId": "1190ebe4-badb-4ec5-af7e-39b962e2baba"
+            }
+        },
+        {
+            "acsUser": null,
+            "spoolUser": null,
+            "phone": null,
+            "guest": null,
+            "encrypted": null,
+            "onPremises": null,
+            "acsApplicationInstance": null,
+            "spoolApplicationInstance": null,
+            "applicationInstance": null,
+            "application": null,
+            "device": null,
+            "user": {
+                "id": "d0b9e579-17e2-4f55-9ebd-de7b9746a241",
+                "displayName": "Andrew Falloon",
+                "tenantId": "1190ebe4-badb-4ec5-af7e-39b962e2baba"
+            }
+        }
+    ]
+}
